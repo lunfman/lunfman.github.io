@@ -1,0 +1,37 @@
+.big-card-1{
+    margin-bottom: 5%;
+    position: relative;
+    padding: 6px 32px;
+    margin-left: 2%;
+    background:#F4BFBF;
+    border-radius: 35px;
+
+}
+
+.big-card-2{
+    margin-bottom: 5%;
+    position: relative;
+    padding: 6px 32px;
+    margin-left: 14%;
+    background:#FFD9C0;
+    border-radius: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+    .big-card-1, .big-card-2{
+        width: 83%;
+        margin: 3%;
+    }
+} 
+
+@media only screen and (min-width: 600px){
+    .big-card-1, .big-card-2{
+        width: 76%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .big-card-1, .big-card-2{
+        width: 80%;
+    }
+}
