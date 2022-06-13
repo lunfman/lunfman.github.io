@@ -1,37 +1,40 @@
-.big-card-1{
-    margin-bottom: 5%;
-    position: relative;
-    padding: 6px 32px;
-    margin-left: 2%;
-    background:#F4BFBF;
+.big-card{
+    background: #73AED0;
+    margin: 3%;
+    padding: 1rem 2rem;
     border-radius: 35px;
-
+    
 }
 
-.big-card-2{
-    margin-bottom: 5%;
-    position: relative;
-    padding: 6px 32px;
-    margin-left: 14%;
-    background:#FFD9C0;
-    border-radius: 35px;
+
+.row{
+    display: flex;
+  }
+
+.col-10{
+    float: left;
+    width: 83.33%;
 }
 
-@media only screen and (max-width: 600px) {
-    .big-card-1, .big-card-2{
-        width: 83%;
-        margin: 3%;
-    }
-} 
-
-@media only screen and (min-width: 600px){
-    .big-card-1, .big-card-2{
-        width: 76%;
-    }
+.col-5{
+    float: left;
+    width: 41.66%;
 }
 
-@media only screen and (min-width: 1200px) {
-    .big-card-1, .big-card-2{
-        width: 80%;
-    }
+.col-2{
+    float:left;
+    width: 16.66%
+}
+
+.col-1{
+    float: left;
+    width: 8.33%;
+}
+
+.right{
+    float: right;
+}
+.icon{
+    margin-top: 1.5rem ;
+    margin-left: 1rem;
 }
