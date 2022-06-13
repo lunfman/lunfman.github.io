@@ -14,16 +14,14 @@ const HeroImageStyle = {
     backgroundRepeat: 'no-repeat',
 } as React.CSSProperties
 
-const HeroTitleStyle = {
-    fontFamily: 'Inter',
-    fontStyle: 'italic',
-    fontWeight: '800',
-} as React.CSSProperties
-
 export default function HeroImage() {
     return(
-        <div style={HeroImageStyle}>
-            <h1 style={HeroTitleStyle} className='title'><span style={{color:'pink'}}>L</span>unfmans's Portfolio</h1>
+        <section style={HeroImageStyle}>
+        <div >
+            <h1 className='title'><span style={{color:'pink'}}>L</span>unfmans's Portfolio</h1>
+            <h2 className='subtitle'>Fullstack Developer</h2>
         </div>
+        </section>
+
     )
 }

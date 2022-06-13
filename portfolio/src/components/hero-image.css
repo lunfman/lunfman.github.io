@@ -1,17 +1,42 @@
+.title, .subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700,
+}
+
+.title{
+    margin-bottom: 0
+}
+
+.subtitle{
+    margin-top: 1rem,
+}
+
 @media only screen and (max-width: 600px) {
     .title{
         font-size: 4rem;
+    }
+    .subtitle{
+        font-size: 2rem;
     }
 } 
 
 @media only screen and (min-width: 600px){
     .title{
-        font-size: 4rem;
+        font-size: 6rem;
+    }
+
+    .subtitle{
+        font-size: 3rem;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .title{
         font-size: 7rem;
+    }
+
+    .subtitle{
+        font-size: 4rem;
     }
 }
