@@ -1,8 +1,15 @@
 import React from 'react';
+import HeroImage from './components/HeroImage';
+import BigCard from './components/BigCard';
 
 function App() {
   return (
-    <p>ok</p>
+    <>
+      <HeroImage/>
+      <BigCard 
+
+      />
+    </>
   );
 }
 
