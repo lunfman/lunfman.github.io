@@ -1,16 +1,7 @@
-import React from 'react';
-import HeroImage from './components/HeroImage';
-import BigCard from './components/BigCard';
+import React from "react";
 
 function App() {
-  return (
-    <>
-      <HeroImage/>
-      <BigCard 
-
-      />
-    </>
-  );
+  return <>running</>;
 }
 
 export default App;
