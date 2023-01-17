@@ -1,311 +1,224 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
-html, body{
-    margin: 0;
-    max-width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+html,
+body {
+  margin: 0;
+  max-width: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
-h1{
-    margin: 0;
+h1 {
+  margin: 0;
 }
 
 /* initials */
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-ul{
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 1em;
-    
+.nav-items {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
 }
 
-button{
-    border: 0;
-    border-radius: 35px;
-    padding: 0.5em;
-    color: white;
+button {
+  border: 0;
+  border-radius: 35px;
+  padding: 0.5em;
+  color: white;
 }
 /* navbar */
-.nav-container{
-    background-color: #6FAFD3;
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    font-weight: 600;
+.nav-container {
+  background-color: #132e65;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 5%;
+  font-weight: 600;
 }
 
-.nav-item{
-    padding-top: 0.4em;
-    font-size: 1em;
+.nav-item {
+  padding-top: 0.4em;
+  font-size: 1em;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
 }
 
-.logo{
-    font-size: 1.5em;
+.logo {
+  font-size: 1.5em;
 }
 
 /* hero section */
 
-.city-svg{
-    display: none;
+.hero {
+  padding: 0% 5%;
+  background-color: #8cc0de;
+  color: white;
+  text-align: left;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 95vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("./assets//test.svg");
 }
 
-.hero{
-    background-color: #8CC0DE;
-    color: white;
-    text-align: center;
-    
+.title {
+  padding-top: 15%;
+  font-size: 4em;
+  font-weight: 600;
+  max-width: 600px;
+  /* width: 00px; */
 }
 
-.hero-content{
-    padding: 10em 1em;
+.hero-btn {
+  margin-top: 2em;
+  background-color: #f06c6c;
+  font-size: 2.3em;
+  font-weight: 600;
 }
 
-.title{
-    font-size: 4em;
-    font-weight: 600;
+.visit-btn {
+  background-color: #f8af7f;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+  width: 6em;
+  height: 3em;
+  margin-right: 0.5em;
 }
 
-.hero-btn{
-    margin-top: 2em;
-    background-color: #F8AF7F;
-    font-size: 2.3em;
-    font-weight: 600;
-
+/* about */
+/* container */
+.container {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
 }
 
-/* projects */
-.project-action-btns-desktop, circle{
-    display: none;
+.big-image {
+  width: 500px;
+}
+.about-content {
+  width: 600px;
+  padding: 30px;
+  font-size: 23px;
 }
 
-.projects{
-    text-align: center;
-    padding: 0em 2em;
-    padding-bottom: 5em;
+.about-title {
+  color: #f8af7f;
+  font-size: 2em;
 }
 
-.feat{
-    color: #F8AF7F;
-    font-weight: 600;
-    font-size: 1em;
+.attention-text,
+.tools {
+  color: #f78f8f;
+  font-weight: 700;
 }
 
-h3{
-    font-size: 2em;
-    font-weight: 700;
+/* project description */
+.murtatas-section {
+  background-color: #f78f8f;
+  color: white;
 }
 
-.project-description{
-    font-weight: 400;
-    font-size: 1em;
+.project-details {
+  width: 500px;
+  /* padding: 30px; */
+  text-align: left;
+  padding: 0;
+  margin: 0;
 }
 
-.visit-btn{
-    background-color: #F8AF7F;
-    font-size: 1.5em;
-    font-weight: 500;
-    text-align: center;
-    /* padding: 1em 2em; */
-    width: 6em;
-    height: 3em;
-    margin-right: 0.5em;
+.project-title {
+  font-size: 5em;
+  font-weight: 900;
 }
 
-.details-btn{
-    background-color: #85C4E9;
-    font-size: 1.5em;
-    font-weight: 500;
-    text-align: center;
-    width: 6em;
-    height: 3em;
-    /* padding: 1em 2em; */
+.project-info {
+  font-size: 2em;
+  font-weight: 500;
 }
 
-.project-content-1, .project-content-2{
-    padding-top: 5em;
+.project-tools-used {
+  font-size: 26px;
+  font-weight: 300;
 }
 
-.project-svg{
-    width: 350px;
-    border-radius: 35px;
-    margin: 2em auto
+.link-btn {
+  background-color: #f8af7f;
+  border-radius: 35px;
+  font-size: 32px;
+  padding: 10px 50px;
+  font-weight: 300;
+  cursor: pointer;
 }
 
-
-.project-svg-with-bg{
-    background-color: #F78F8F;
-    width: 350px;
-    /* height: 350px; */
-    border-radius: 35px;
-    margin: 2em auto
-    ;
+.bg-orange {
+  background-color: #f8af7f;
 }
 
-/* skills section */
-
-.skills{
-    padding: 2em;
-    background-color: #F78F8F;
+.bg-blue {
+  background-color: #6fafd3;
 }
 
-.card{
-    margin: 2em;
-    background-color: white;
-    border-radius: 35px;
-    text-align: center;
-    padding: 6em 2em;
+.bg-pink {
+  background-color: #f06c6c;
 }
 
-.card-description{
-    font-weight: 500;
+.bg-light-pink {
+  background-color: #f78f8f;
 }
 
-/* contact me section */
-.contact-section{
-    padding: 5em 2em;
-    text-align: center;
+.text-white {
+  color: white;
 }
 
-.send-btn{
-    margin-top: 1em;
-    background-color: #F78F8F;
-    font-size: 3em;
-    border-radius: 0px;
-    width: 100%;
-    font-weight: 600;
+.icon {
+  width: 75px;
+  height: 75px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
-.contact-svg{
-    width: 60%;
-    height: 300px;
-    margin: 0 auto;
+footer {
+  text-align: center;
+  padding: 2%;
 }
 
-@media only screen and (min-width: 800px)  {
-    .projects{
-        position: relative;
-    }
-    .project-svg{
-        /* width: 250px; */
-    }
+/* scroll down btn 
+https://codepen.io/harshendra-prajapati/pen/BaQRdWV
+*/
+.scroll-down-animation {
+  left: 50%;
+  transform: translateY(0%) rotate(45deg);
 
-    .project{
-        display: grid;
-        grid-template-columns: 60% auto;
-        column-gap: 1em;
-    }
-
-    .project-description{
-        font-size: 1.5em;
-    }
-
-    .project-action-btns-desktop{
-        display: block;
-    }
-
-    .project-action-btns-mobile{
-        display: none;
-    }
-
-    .skills{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 3em;
-    }
-
-    .card{
-     margin: 0;
-    }
-
-    .card-description{
-        font-size: 1.2em;
-    }
-
-    .project-content-1{
-        text-align: left;
-    }
-
-    .send-btn{
-        width: 50%;
-    }
-
-    .circle{
-        position: absolute;
-        top: 1em;
-        left: -5em;
-        background-color:  #8CC0DE;
-        border-radius: 50%;
-        width: 350px;
-        height: 350px;
-        z-index: -1;
-    }
+  opacity: 0;
 }
-
-@media only screen and (min-width: 1050px){
-    .nav-container{
-        padding: 1em 6em 1em 3em;
-    }
-
-    .logo{
-        font-size: 2em;
-    }
-
-    .nav-item{
-        font-size: 1.5em;
-    }
-
-    .hero{
-        height: 93vh;
-        display: grid;
-        grid-template-columns: 45% auto;
-        column-gap: 15em;
-    }
-
-
-
-    .city-svg{
-        display: block;
-        max-width: 95%;
-        margin-left: -6em;
-    }
-    
-    .title{
-        font-size: 7em;
-    }
-
-    .hero-content{
-        text-align: left;
-        padding: 9em 3em;
-     
-    }
-
-    .projects{
-        padding: 0 20%;
-    }
-
-    .project, .skills, .contact-section{
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .circle{
-        top: 15em;
-    }
-
-    .contact-section{
-        display: flex;
-        padding: 5em 0;
-    }
-
-    .contact-svg, .send-btn{
-        width: 100%;
-    }
-
+@keyframes scrolldown {
+  0% {
+    transform: translateY(20%) rotate(45deg);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(0%) rotate(45deg);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(20%) rotate(45deg);
+    opacity: 0.7;
+  }
 }
