@@ -32,10 +32,10 @@ button {
 }
 /* navbar */
 .nav-container {
-  background-color: #6fafd3;
+  background-color: #132e65;
   display: flex;
   justify-content: space-between;
-  padding: 1em;
+  padding: 1em 5%;
   font-weight: 600;
 }
 
@@ -55,23 +55,32 @@ button {
 /* hero section */
 
 .hero {
+  padding: 0% 5%;
   background-color: #8cc0de;
   color: white;
-  text-align: center;
+  text-align: left;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   height: 95vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("./assets//test.svg");
 }
 
 .title {
-  font-size: 5em;
+  padding-top: 15%;
+  font-size: 4em;
   font-weight: 600;
+  max-width: 600px;
+  /* width: 00px; */
 }
 
 .hero-btn {
   margin-top: 2em;
-  background-color: #f8af7f;
+  background-color: #f06c6c;
   font-size: 2.3em;
   font-weight: 600;
 }
@@ -103,6 +112,7 @@ button {
 .about-content {
   width: 600px;
   padding: 30px;
+  font-size: 23px;
 }
 
 .about-title {
@@ -192,12 +202,12 @@ footer {
 /* scroll down btn 
 https://codepen.io/harshendra-prajapati/pen/BaQRdWV
 */
-/* .scroll-down-animation {
+.scroll-down-animation {
   left: 50%;
   transform: translateY(0%) rotate(45deg);
 
   opacity: 0;
-} */
+}
 @keyframes scrolldown {
   0% {
     transform: translateY(20%) rotate(45deg);
