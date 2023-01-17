@@ -81,7 +81,6 @@ button {
   font-size: 1.5em;
   font-weight: 500;
   text-align: center;
-  /* padding: 1em 2em; */
   width: 6em;
   height: 3em;
   margin-right: 0.5em;
@@ -170,34 +169,6 @@ button {
   background-color: #f78f8f;
 }
 
-/* .button-type-2 {
-  background-color: #6fafd3;
-  border-radius: 35px;
-  font-size: 32px;
-  padding: 10px 50px;
-  font-weight: 300;
-} */
-
 .text-white {
   color: white;
 }
-
-/* .gamenoob-section {
-  background-color: #f8af7f;
-  color: white;
-} */
-
-/* .button-type-3 {
-  background-color: #f06c6c;
-  border-radius: 35px;
-  font-size: 32px;
-  padding: 10px 50px;
-  font-weight: 300;
-} */
-/* @media only screen and (min-width: 800px) {
-
-} */
-
-/* @media only screen and (min-width: 1050px) {
- 
-} */
