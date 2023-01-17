@@ -1,3 +1,5 @@
+<!-- all svgs from https://www.svgrepo.com-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,8 +14,9 @@
       <a href="#" class="logo">Lunfman</a>
       <header>
         <ul class="nav-items">
-          <a href="#"><li class="nav-item">My work</li></a>
-          <a href="#"><li class="nav-item">Contact Me</li></a>
+          <a href="#about"><li class="nav-item">About</li></a>
+          <a href="#my-work"><li class="nav-item">My work</li></a>
+          <a href="#contact"><li class="nav-item">Contact Me</li></a>
         </ul>
       </header>
     </div>
@@ -21,11 +24,17 @@
     <section class="hero">
       <div class="hero-content">
         <h1 class="title">Let's Build Awesome Future</h1>
-        <button class="hero-btn">Let's Build Together</button>
+        <button class="hero-btn">Check my work</button>
       </div>
+	  <!-- link to the author of the scroll down btn -->
+	  <!-- https://codepen.io/harshendra-prajapati/pen/BaQRdWV -->
+	  <div class="scroll-down-animation" style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 25px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: antiquewhite; animation: scrolldown 1.2s ease-in-out infinite 0.15s;"></div>
+            <div style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 40px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: antiquewhite; animation: scrolldown 1.2s ease-in-out infinite;"></div>
     </section>
 
-    <section class="container">
+    <section id="about" class="container">
       <div>
         <img class="big-image" src="./assets/avatar.svg" />
       </div>
@@ -58,7 +67,7 @@
       </div>
     </section>
 
-    <section class="container bg-light-pink text-white">
+    <section id="my-work" class="container bg-light-pink text-white">
       <div class="project-details">
         <h1 class="project-title">MuRatas</h1>
         <h2 class="project-info">
@@ -67,7 +76,7 @@
         </h2>
         <h3 class="project-tools-used">Python, React</h3>
         <div class="project-btns">
-          <button class="link-btn bg-orange">Visit</button>
+          <a href="https://muratas.netlify.app" target="_blank" > <button class="link-btn bg-orange">Visit</button> </a>
           <button class="link-btn bg-blue">Details</button>
         </div>
       </div>
@@ -82,7 +91,7 @@
         <h2 class="project-info">Keep yours game library in one place.</h2>
         <h3 class="project-tools-used">React, NodeJS, MongoDb, Firebase</h3>
         <div class="project-btns">
-          <button class="link-btn bg-pink">Visit</button>
+		  <a href="https://gamenoon.netlify.app" target="_blank" > <button class="link-btn bg-pink">Visit</button> </a>
           <button class="link-btn bg-blue">Details</button>
         </div>
       </div>
@@ -90,5 +99,60 @@
         <img class="big-image" src="./assets/gamenoob.svg" />
       </div>
     </section>
+
+    <section class="container bg-pink text-white">
+      <div class="project-details">
+        <h1 class="project-title">HotMiami Web</h1>
+        <h2 class="project-info">Landing page for indie game hotline miami</h2>
+        <h3 class="project-tools-used">JavaScript, Css, Html</h3>
+        <div class="project-btns">
+			<a href="https://kodu.ut.ee/~olegsavi/hotlinemiami/index.html" target="_blank" > <button class="link-btn bg-orange">Visit</button> </a>
+          <!-- <button class="link-btn bg-orange">Visit</button> -->
+		  <!-- https://github.com/lunfman/HotMiamiWeb -->
+		  <a href="https://github.com/lunfman/HotMiamiWeb" target="_blank" > <button class="link-btn bg-blue">Details</button> </a>
+          <!-- <button class="link-btn bg-blue">Details</button> -->
+        </div>
+      </div>
+      <div class="project-img">
+        <img class="big-image" src="./assets/miami.svg" />
+      </div>
+    </section>
+
+    <section class="container bg-blue text-white">
+      <div class="project-details">
+        <h1 class="project-title">Drinking Water Quality Prediction</h1>
+        <h2 class="project-info">
+          Imrpove work of water inspectorts in Estonia by predicting water
+          quality
+        </h2>
+        <h3 class="project-tools-used">Python</h3>
+        <div class="project-btns">
+          
+		  <a href="https://github.com/TimurNizamov/DrinkingWaterQualityPrediction" target="_blank" ><button class="link-btn bg-orange">Details</button></a>
+
+        </div>
+      </div>
+      <div class="project-img">
+        <img class="big-image" src="./assets/bottle.svg" />
+      </div>
+    </section>
+
+    <section id="contact" class="container bg-orange text-white">
+      <div>
+        <h1 class="project-title">Contact Me</h1>
+        <p class="project-info">message me at <a class="attention-text" href="mailto:lunfman@proton.me">lunfman@proton.me</a></p>
+	  </div>
+        <div class="links">
+			<!-- https://github.com/TimurNizamov/DrinkingWaterQualityPrediction -->
+			<a class="attention-text" href="mailto:lunfman@proton.me"><img class="icon" src="assets/mail.svg" /></a>
+		  <a href="https://github.com/lunfman" target="_blank" ><img class="icon" src="assets/github.svg" /></a>
+
+          <img class="icon" src="assets/link.svg" />
+		  <a href="https://kodu.ut.ee/~olegsavi/hotlinemiami/index.html" target="_blank" > </a>
+
+        </div>
+      </div>
+    </section>
+    <footer class="bg-orange text-white">@ lunfman 2023</footer>
   </body>
 </html>
