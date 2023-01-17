@@ -5,7 +5,6 @@ body {
   margin: 0;
   max-width: 100%;
   font-family: "Montserrat", sans-serif;
-  /* overflow-x: hidden; */
 }
 
 h1 {
@@ -18,7 +17,7 @@ a {
   color: white;
 }
 
-ul {
+.nav-items {
   margin: 0;
   list-style-type: none;
   display: flex;
@@ -43,6 +42,10 @@ button {
 .nav-item {
   padding-top: 0.4em;
   font-size: 1em;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
 }
 
 .logo {
@@ -84,25 +87,113 @@ button {
   margin-right: 0.5em;
 }
 
-.card-description {
+/* about */
+/* container */
+.container {
+  padding: 5% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.big-image {
+  width: 500px;
+}
+.about-content {
+  width: 600px;
+  padding: 30px;
+}
+
+.about-title {
+  color: #f8af7f;
+  font-size: 2em;
+}
+
+.attention-text,
+.tools {
+  color: #f78f8f;
+  font-weight: 700;
+}
+
+/* project description */
+.murtatas-section {
+  background-color: #f78f8f;
+  color: white;
+}
+
+.project-details {
+  width: 500px;
+  /* padding: 30px; */
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.project-title {
+  font-size: 5em;
+  font-weight: 900;
+}
+
+.project-info {
+  font-size: 2em;
   font-weight: 500;
 }
 
-/* contact me section */
-.contact-section {
-  padding: 5em 2em;
-  text-align: center;
+.project-tools-used {
+  font-size: 26px;
+  font-weight: 300;
 }
 
-.send-btn {
-  margin-top: 1em;
+.link-btn {
+  background-color: #f8af7f;
+  border-radius: 35px;
+  font-size: 32px;
+  padding: 10px 50px;
+  font-weight: 300;
+}
+
+.bg-orange {
+  background-color: #f8af7f;
+}
+
+.bg-blue {
+  background-color: #6fafd3;
+}
+
+.bg-pink {
+  background-color: #f06c6c;
+}
+
+.bg-light-pink {
   background-color: #f78f8f;
-  font-size: 3em;
-  border-radius: 0px;
-  width: 100%;
-  font-weight: 600;
 }
 
+/* .button-type-2 {
+  background-color: #6fafd3;
+  border-radius: 35px;
+  font-size: 32px;
+  padding: 10px 50px;
+  font-weight: 300;
+} */
+
+.text-white {
+  color: white;
+}
+
+/* .gamenoob-section {
+  background-color: #f8af7f;
+  color: white;
+} */
+
+/* .button-type-3 {
+  background-color: #f06c6c;
+  border-radius: 35px;
+  font-size: 32px;
+  padding: 10px 50px;
+  font-weight: 300;
+} */
 /* @media only screen and (min-width: 800px) {
 
 } */
