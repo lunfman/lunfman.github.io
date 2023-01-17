@@ -135,7 +135,7 @@ button {
 .project-details {
   width: 500px;
   /* padding: 30px; */
-  text-align: left;
+  /* text-align: left; */
   padding: 0;
   margin: 0;
 }
@@ -220,5 +220,53 @@ https://codepen.io/harshendra-prajapati/pen/BaQRdWV
   100% {
     transform: translateY(20%) rotate(45deg);
     opacity: 0.7;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* .nav-container {
+    justify-content: left;
+    padding: 3px;
+    margin: 0;
+  } */
+
+  .logo {
+    font-size: 1em;
+  }
+  .nav-item {
+    font-size: 0.8em;
+    gap: 0;
+  }
+  .title {
+    font-size: 3em;
+  }
+
+  .link-btn {
+    font-size: 25px;
+    padding: 10px 40px;
+  }
+
+  .nav-items {
+    gap: 7px;
+  }
+
+  .big-image {
+    width: 100%;
+  }
+
+  .project-title {
+    font-size: 3em;
+  }
+
+  .container {
+    gap: 30px;
+  }
+
+  /* .title {
+    font-size: 2em;
+  } */
+
+  .mail {
+    font-size: 1em;
   }
 }
