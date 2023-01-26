@@ -143,6 +143,20 @@ button {
   font-size: 2em;
 }
 
+.feature-title {
+  font-size: 5vw;
+  color: #f8af7f;
+}
+
+.feature-text {
+  font-size: 1.8vw;
+  font-weight: 600;
+}
+
+.text-box {
+  padding: 0 15%;
+}
+
 .attention-text,
 .tools {
   color: #f78f8f;
@@ -215,6 +229,13 @@ button {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+.fact-item {
+  border-bottom: 12px solid #f68f8f;
+  padding: 5px;
+  margin: 2px;
+  font-size: 1.8vw;
 }
 
 footer {
