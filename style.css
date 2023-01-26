@@ -31,8 +31,16 @@ button {
   color: white;
 }
 /* navbar */
-.nav-container {
+/* colors */
+.nav-main-page-color {
   background-color: #132e65;
+}
+
+.nav-muratas-page-color {
+  background-color: #f57a7a;
+}
+.nav-container {
+  /* background-color: #132e65; */
   display: flex;
   justify-content: space-between;
   padding: 1em 5%;
@@ -70,12 +78,27 @@ button {
     url("./assets//test.svg");
 }
 
+.hero-muratas {
+  padding: 0% 5%;
+  background-color: #f78f8f;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 94vh;
+  flex-direction: column;
+}
+
+.flex-title {
+  font-size: 5rem;
+}
+
 .title {
   padding-top: 15%;
   font-size: 4em;
   font-weight: 600;
   max-width: 600px;
-  /* width: 00px; */
 }
 
 .hero-btn {
