@@ -11,6 +11,10 @@ h1 {
   margin: 0;
 }
 
+p {
+  font-size: 23px;
+}
+
 /* initials */
 a {
   text-decoration: none;
@@ -132,8 +136,19 @@ button {
 .big-image {
   width: 500px;
 }
+
+.feature-image {
+  width: 350px;
+}
+
 .about-content {
   width: 600px;
+  padding: 30px;
+  font-size: 23px;
+}
+
+.description-content {
+  width: 500px;
   padding: 30px;
   font-size: 23px;
 }
