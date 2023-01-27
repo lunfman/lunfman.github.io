@@ -169,7 +169,8 @@ button {
 }
 
 .text-box {
-  padding: 0 15%;
+  /* width: 90%; */
+  /* padding: 0 15%; */
 }
 
 .attention-text,
@@ -327,5 +328,9 @@ https://codepen.io/harshendra-prajapati/pen/BaQRdWV
 
   .mail {
     font-size: 1em;
+  }
+
+  .feature-title {
+    font-size: 2em;
   }
 }
