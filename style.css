@@ -144,12 +144,12 @@ button {
 }
 
 .feature-title {
-  font-size: 5vw;
+  font-size: 5em;
   color: #f8af7f;
 }
 
 .feature-text {
-  font-size: 1.8vw;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
@@ -235,7 +235,7 @@ button {
   border-bottom: 12px solid #f68f8f;
   padding: 5px;
   margin: 2px;
-  font-size: 1.8vw;
+  font-size: 1.5em;
 }
 
 footer {
