@@ -297,7 +297,8 @@ https://codepen.io/harshendra-prajapati/pen/BaQRdWV
     font-size: 0.8em;
     gap: 0;
   }
-  .title {
+  .title,
+  .flex-title {
     font-size: 3em;
   }
 
