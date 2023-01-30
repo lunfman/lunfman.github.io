@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Lunfman's Portfolio</title>
+  </head>
+  <body>
+    <div class="nav-container nav-muratas-page-color">
+      <a href="#" class="logo">Lunfman</a>
+      <header>
+        <ul class="nav-items">
+          <a href="#about"><li class="nav-item">About</li></a>
+          <a href="#my-work"><li class="nav-item">My work</li></a>
+          <a href="#contact"><li class="nav-item">Contact Me</li></a>
+        </ul>
+      </header>
+    </div>
+
+    <section class="hero-muratas bg-light-pink text-white">
+      <h1 class="flex-title">MuRatas</h1>
+      <h2>
+        is going to help you find the perfect bicycle for your on Estonian
+        market
+      </h2>
+
+      <a href="https://muratas.netlify.app" target="_blank">
+        <button class="link-btn bg-orange">Visit</button>
+      </a>
+      <div
+        class="scroll-down-animation"
+        style="
+          width: 2em;
+          height: 2em;
+          background-color: transparent;
+          z-index: 80;
+          bottom: 25px;
+          position: absolute;
+          border-width: 0 0.25em 0.25em 0;
+          border-style: solid;
+          border-color: antiquewhite;
+          animation: scrolldown 1.2s ease-in-out infinite 0.15s;
+        "
+      ></div>
+      <div
+        class="scroll-down-animation"
+        style="
+          width: 2em;
+          height: 2em;
+          background-color: transparent;
+          z-index: 80;
+          bottom: 40px;
+          position: absolute;
+          border-width: 0 0.25em 0.25em 0;
+          border-style: solid;
+          border-color: antiquewhite;
+          animation: scrolldown 1.2s ease-in-out infinite;
+        "
+      ></div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="project-img">
+          <img class="feature-image" src="./assets/shop.svg" />
+        </div>
+        <div class="description-content">
+          <h1 class="about-title">5 SHOPS IN ONE PLACE</h1>
+          <p>Muratas is gathering bike prices from 5 bike shops</p>
+        </div>
+      </div>
+
+      <div class="container right-img">
+        <div class="description-content">
+          <h1 class="about-title">FILTERS</h1>
+          <p>
+            Wide variety of filters, which allows for finding a bike with
+            specific requirements.
+          </p>
+        </div>
+        <div class="project-img">
+          <img class="feature-image" src="./assets/filters.svg" />
+        </div>
+      </div>
+
+      <div class="container normal-img">
+        <div class="project-img">
+          <img class="feature-image" src="./assets/filters.svg" />
+        </div>
+        <div class="description-content">
+          <h1 class="about-title">FILTERS</h1>
+          <p>
+            Wide variety of filters, which allows for finding a bike with
+            specific requirements.
+          </p>
+        </div>
+ 
+      </div>
+
+      <div class="container">
+        <div class="project-img">
+          <img class="feature-image" src="./assets/update.svg" />
+        </div>
+        <div class="description-content">
+          <h1 class="about-title">WEEKLY UPDATES</h1>
+          <p>
+            The website updates its database weekly to provide users with new
+            and reliable information about prices and available models in the
+            Estonian market.
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1 class="feature-title">MOTIVATION</h1>
+        <p class="feature-text text-box">
+          Once I decided to find a road bike that will suit all my requirements.
+          And it was actually a pretty challenging task. We have a lot of
+          different bike stores. And checking all of them is a real pain. Many
+          have very bad UI and filter systems. Finding a required bike takes a
+          lot of time and effort. Eventually, I found the bike, but it would be
+          much easier if we had some kind of webpage like HV(hinnavaatlus for
+          the bikes). Unfortunately, we did not have this kind of service. So I
+          decided to create this kind of service.
+        </p>
+      </div>
+
+      <div class="container">
+        <h1 class="feature-title">INTERESTING FACTS</h1>
+        <ul class="text-box">
+          <li class="fact-item">
+            Created own data structure for storing data and querying methods
+          </li>
+          <li class="fact-item">
+            The first project where React and Flask were used together
+          </li>
+          <li class="fact-item">
+            This project had one real user, but when he looked at how much the
+            bikes cost he decided not to buy a new bike, all thanks to me
+          </li>
+          <li class="fact-item">
+            Created the first python package which was published on PyPI
+          </li>
+          <li class="fact-item">Database module has 100% of code coverage</li>
+          <li class="fact-item">5 unique parsers were created</li>
+          <li class="fact-item">Automated with a Bash script</li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <h1 class="feature-title">TOOLS</h1>
+        <div>
+          <p><b>Languages:</b> Python3, JS, Bash script</p>
+          <p><b>Deployment:</b> Render, Netlify , Raspberry pi</p>
+          <p><b>Frame Works and libraries:</b> React, Flask, BeautifulSoup</p>
+          <p><b>Testing:</b> Python unit-test, Jest, react testing library</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="container bg-orange text-white">
+      <div>
+          <h1 class="project-title">Contact Me</h1>
+          <p class="project-info mail">message me at <a class="attention-text" href="mailto:lunfman@proton.me">lunfman@proton.me</a></p>
+      </div>
+          <div class="links">
+        <!-- https://github.com/TimurNizamov/DrinkingWaterQualityPrediction -->
+        <a class="attention-text" href="mailto:lunfman@proton.me"><img class="icon" src="assets/mail.svg" /></a>
+        <a href="https://github.com/lunfman" target="_blank" ><img class="icon" src="assets/github.svg" /></a>
+  
+            <img class="icon" src="assets/link.svg" />
+        <a href="https://kodu.ut.ee/~olegsavi/hotlinemiami/index.html" target="_blank" > </a>
+  
+          </div>
+        </div>
+      </section>
+      <footer class="bg-orange text-white">@lunfman 2023</footer>
+  </body>
+</html>

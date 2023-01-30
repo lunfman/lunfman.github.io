@@ -11,6 +11,10 @@ h1 {
   margin: 0;
 }
 
+p {
+  font-size: 23px;
+}
+
 /* initials */
 a {
   text-decoration: none;
@@ -31,8 +35,16 @@ button {
   color: white;
 }
 /* navbar */
-.nav-container {
+/* colors */
+.nav-main-page-color {
   background-color: #132e65;
+}
+
+.nav-muratas-page-color {
+  background-color: #f57a7a;
+}
+.nav-container {
+  /* background-color: #132e65; */
   display: flex;
   justify-content: space-between;
   padding: 1em 5%;
@@ -70,12 +82,27 @@ button {
     url("./assets//test.svg");
 }
 
+.hero-muratas {
+  padding: 0% 5%;
+  background-color: #f78f8f;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 94vh;
+  flex-direction: column;
+}
+
+.flex-title {
+  font-size: 5rem;
+}
+
 .title {
   padding-top: 15%;
   font-size: 4em;
   font-weight: 600;
   max-width: 600px;
-  /* width: 00px; */
 }
 
 .hero-btn {
@@ -109,8 +136,19 @@ button {
 .big-image {
   width: 500px;
 }
+
+.feature-image {
+  width: 350px;
+}
+
 .about-content {
   width: 600px;
+  padding: 30px;
+  font-size: 23px;
+}
+
+.description-content {
+  width: 500px;
   padding: 30px;
   font-size: 23px;
 }
@@ -118,6 +156,21 @@ button {
 .about-title {
   color: #f8af7f;
   font-size: 2em;
+}
+
+.feature-title {
+  font-size: 5em;
+  color: #f8af7f;
+}
+
+.feature-text {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.text-box {
+  /* width: 90%; */
+  /* padding: 0 15%; */
 }
 
 .attention-text,
@@ -194,6 +247,13 @@ button {
   gap: 10px;
 }
 
+.fact-item {
+  border-bottom: 12px solid #f68f8f;
+  padding: 5px;
+  margin: 2px;
+  font-size: 1.5em;
+}
+
 footer {
   text-align: center;
   padding: 2%;
@@ -223,6 +283,20 @@ https://codepen.io/harshendra-prajapati/pen/BaQRdWV
   }
 }
 
+.normal-img {
+  display: none;
+}
+
+@media only screen and (max-width: 1122px) {
+  .right-img {
+    display: none;
+  }
+
+  .normal-img {
+    display: flex;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   /* .nav-container {
     justify-content: left;
@@ -237,7 +311,8 @@ https://codepen.io/harshendra-prajapati/pen/BaQRdWV
     font-size: 0.8em;
     gap: 0;
   }
-  .title {
+  .title,
+  .flex-title {
     font-size: 3em;
   }
 
@@ -268,5 +343,9 @@ https://codepen.io/harshendra-prajapati/pen/BaQRdWV
 
   .mail {
     font-size: 1em;
+  }
+
+  .feature-title {
+    font-size: 2em;
   }
 }
